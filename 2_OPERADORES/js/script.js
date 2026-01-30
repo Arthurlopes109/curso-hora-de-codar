@@ -34,3 +34,23 @@ console.log(`Testando` + ` com` + ` crase!`);
 
 // 7 interpolaçâo de textos(template string)
 console.log(`O resultado da expressão 5 + (4 x 12) é ${5 + (4 * 12)}`);
+
+// 8 boolean
+console.log(true);
+
+console.log(`5 > 10 ${5 > 10}`);
+
+console.log(`10 > 2 ${10 > 2}`);
+
+console.log(typeof true)
+
+// 9 comparando valores
+console.log(`21 >= 21 ${21 >= 21}`);
+
+console.log(`243 <= 43 ${243 <= 43}`);
+
+console.log(`10 == '10' ${10 == '10'}`);
+
+console.log(`10 != '10' ${10 != '10'}`);
+
+console.log(`10 === '10 ${10 === '10'}`);
