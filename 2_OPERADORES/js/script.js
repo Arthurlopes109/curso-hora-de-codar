@@ -53,4 +53,43 @@ console.log(`10 == '10' ${10 == '10'}`);
 
 console.log(`10 != '10' ${10 != '10'}`);
 
-console.log(`10 === '10 ${10 === '10'}`);
+console.log(`10 === '10' ${10 === '10'}`);
+
+// 10  Comparação de valor idêntico (verificação de tipo e valor)
+console.log(9 == "9")
+
+console.log(9 === "9")
+
+console.log(9 != "9")
+
+console.log(9 !== "9")
+
+// 11 operadores logicos
+
+console.log( true && true)// true
+
+console.log(true && false)// false
+
+console.log(true || true)// true
+
+console.log(true || false)// true
+
+console.log(false || false)// false
+
+console.log(! true)// false
+
+console.log(! false)// true
+
+// 12 operadores logicos na pratica
+
+console.log(`5 > 2 && 10 < 12 ${5  > 2 && 10 < 12}`)
+
+console.log(`5 < 2  && 10 > 12 ${5 < 2 && 10 > 12}`)
+
+console.log(`2 == 5 || 9 !== "9"  ${2 == 5 || 9 !== "9"}`)
+
+console.log(`2 === "3" || 9 !== 9  ${2 === "3" || 9 !== 9}`)
+
+console.log(`5 > 2 ${! 5 > 2}`)
+
+console.log(`5 < 2 ${! 5 < 2}`)
