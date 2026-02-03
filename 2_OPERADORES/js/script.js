@@ -42,7 +42,7 @@ console.log(`5 > 10 ${5 > 10}`);
 
 console.log(`10 > 2 ${10 > 2}`);
 
-console.log(typeof true)
+console.log(typeof true);
 
 // 9 comparando valores
 console.log(`21 >= 21 ${21 >= 21}`);
@@ -56,40 +56,60 @@ console.log(`10 != '10' ${10 != '10'}`);
 console.log(`10 === '10' ${10 === '10'}`);
 
 // 10  Comparação de valor idêntico (verificação de tipo e valor)
-console.log(9 == "9")
+console.log(9 == "9");
 
-console.log(9 === "9")
+console.log(9 === "9");
 
-console.log(9 != "9")
+console.log(9 != "9");
 
-console.log(9 !== "9")
+console.log(9 !== "9");
 
 // 11 operadores logicos
 
-console.log( true && true)// true
+console.log( true && true);// true
 
-console.log(true && false)// false
+console.log(true && false);// false
 
-console.log(true || true)// true
+console.log(true || true);// true
 
-console.log(true || false)// true
+console.log(true || false);// true
 
-console.log(false || false)// false
+console.log(false || false);// false
 
-console.log(! true)// false
+console.log(! true);// false
 
-console.log(! false)// true
+console.log(! false);// true
 
-// 12 operadores logicos na pratica
+// 11 operadores logicos na pratica
 
-console.log(`5 > 2 && 10 < 12 ${5  > 2 && 10 < 12}`)
+console.log(`5 > 2 && 10 < 12 ${5  > 2 && 10 < 12}`);
 
-console.log(`5 < 2  && 10 > 12 ${5 < 2 && 10 > 12}`)
+console.log(`5 < 2  && 10 > 12 ${5 < 2 && 10 > 12}`);
 
-console.log(`2 == 5 || 9 !== "9"  ${2 == 5 || 9 !== "9"}`)
+console.log(`2 == 5 || 9 !== "9"  ${2 == 5 || 9 !== "9"}`);
 
-console.log(`2 === "3" || 9 !== 9  ${2 === "3" || 9 !== 9}`)
+console.log(`2 === "3" || 9 !== 9  ${2 === "3" || 9 !== 9}`);
 
-console.log(`5 > 2 ${! 5 > 2}`)
+console.log(`5 > 2 ${! 5 > 2}`);
 
-console.log(`5 < 2 ${! 5 < 2}`)
+console.log(`5 < 2 ${! 5 < 2}`);
+
+// 12 empty values
+console.log(typeof null, typeof undefined);
+
+console.log(null === undefined);// como tipo eles são diferentes
+
+console.log(null  == undefined);// como valor eles são iguais
+
+console.log(null == false);// ausência de valor não é igual a false
+
+console.log(undefined == false);// ausência de valor não é igual a false
+
+// 13 mudanças de tipos
+console.log(5 * null);// não a sentido nesse tipo de operação
+
+console.log("opa" * "oi");// ruim não trabalhe com isso
+
+console.log("5" + 1);// ruim não trabalhe com isso converta
+
+console.log("5" - 3);// ruim não trabalhe com isso converta
