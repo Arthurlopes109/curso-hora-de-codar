@@ -62,8 +62,45 @@ console.log(Math.floor(5.14)); // arredonda um número para baixo
 console.log(Math.ceil(5.14)) // arredonda para um número para cima
 
 // 6 objeto console
-console.log("exibe uma mensagem");
+// console.log("exibe uma mensagem");
 
-console.error("ERRO!");
+// console.error("ERRO!");
 
-console.warn("AVISO!");
+// console.warn("AVISO!");
+
+// 7 - if
+const m = 10;
+
+if (m > 5) {
+    console.log("M é maior que 5");
+}
+
+const user = "João";
+
+if(user === "João") {
+    console.log("Entrada aceita.");
+}
+
+if(user === "Maria"){
+    console.log("Olá, Maria");
+}
+
+console.log(user === "João", user === "Maria")
+
+// 8 - else
+const loggerdin = false
+
+if(loggerdin){
+    console.log("Está autenticado!");
+} else {
+    console.log("Não está autenticado!");
+}
+
+const q = 10
+const w = 15
+
+if(q > 5 && w > 20) {
+    console.log("Números mais altos");  
+} else {
+    console.log("Os números não são mais altos!");
+}
