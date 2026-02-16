@@ -104,3 +104,26 @@ if(q > 5 && w > 20) {
 } else {
     console.log("Os números não são mais altos!");
 }
+
+// 9 else if
+
+if(1 > 2){
+    console.log("teste");
+} else if(2 > 3){
+    console.log("teste 2");
+}else if(5 > 1){
+    console.log("Agora sim")
+}
+
+const username = "Arthur"
+const userage = 19
+
+if(username === "Carlos"){
+    console.log("Bem vindo Carlos!");
+}else if(username === "Arthur" && userage === 19){
+    console.log("Olá Arthur, você tem 19 anos!");
+}else{
+    console.log("AVISO!, seus dados não foram aceitos.")
+}
+
+// 10 estruturas de repetção
