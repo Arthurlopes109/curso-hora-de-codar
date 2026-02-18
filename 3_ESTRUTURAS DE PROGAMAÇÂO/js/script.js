@@ -153,11 +153,43 @@
 
 // 12 - for
 
-for(let t = 0; t < 10; t++) {
-    console.log("Repetindo algo...")
-}
+// for(let t = 0; t < 10; t++) {
+//     console.log("Repetindo algo...")
+// }
 
-let r = 10
-for(r; r > 0; r--){
- console.log(`R está diminuindo ${r}`)
-}
+// let r = 10
+// for(r; r > 0; r--){
+//  console.log(`R está diminuindo ${r}`)
+// }
+
+// 13 - identação
+
+// for(let u = 0; u < 10; u++){
+//     if(u * 2 > 10){
+//         console.log(`Maior que 10" ${u}`)
+//     } else {
+//         if(u / 2 === 0) {
+//             console.log("Deu 0")
+//         }
+//     }
+// }
+
+// 14 - saida de um loop com break
+// for(let g = 20; g > 10; g--) {
+//     console.log(`O valor de g é: ${g}`);
+
+//     if(g === 12){ // executa até o 12 e para
+//         console.log(`O valor de g é: ${g}`);
+//         break;
+//     }
+// }
+
+// 15 - Pulando a execução de um loop com: continue
+// for(let s = 0; s <= 10; s++){
+//     // operador de resto de divisão = %
+//     if(s % 2 === 0) {
+//         console.log(`Número par!`)
+//         continue
+//     }
+//     console.log(s)
+// }
