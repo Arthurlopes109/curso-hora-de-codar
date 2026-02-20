@@ -193,3 +193,20 @@
 //     }
 //     console.log(s)
 // }
+
+// 16 - estrutura switch
+const job = "Advogado"
+
+switch(job) {
+    case "Progamador":
+        console.log("Você é um progamador");
+        break;
+    case "Advogado":
+        console.log("Você é um advogado");
+        break;
+    case "Engenheiro":
+        console.log("Você é um engenheiro");
+        break;
+    default:
+        console.log("Profissão não encontrada");        
+}
