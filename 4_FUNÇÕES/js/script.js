@@ -70,3 +70,27 @@ function testandoEscopo() {
 console.log(`Y fora da função é ${y}`)
 
 testandoEscopo()
+
+// 4 - escopo aninhado
+let m = 10
+
+function escopoAninhado() {
+    let m = 20
+
+    if(true)  {
+        let m = 30
+
+        if(true) {
+            let m = 40
+            console.log(m)// escopo do segundo if
+        }
+
+        console.log(m)// escopo do primeiro if
+    } 
+
+    console.log(m)// escopo da função
+}
+
+escopoAninhado()//escopo da função
+
+console.log(m)// escopo global
