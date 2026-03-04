@@ -48,11 +48,11 @@ const B = 24
 const C = 54
 const D = 967
 
-function parOUimpar(n1){
-    if(n1 % 2 === 0) {
-        return `${n1} Par`;
+function parOUimpar(n){
+    if(n % 2 === 0) {
+        return `${n} é Par`;
     } else {
-        return `${n1} Impar`;
+        return `${n} é Impar`;
     }
 }
 
@@ -94,3 +94,24 @@ function escopoAninhado() {
 escopoAninhado()//escopo da função
 
 console.log(m)// escopo global
+
+// 5 - Arrow functions
+
+const testeArrow = () => { 
+    console.log("Esta é uma arrow function!");
+}
+
+testeArrow()
+
+// par ou impar com arrow function
+const _parOUimpar = (n) => {
+    if(n % 2 ===0){
+        console.log(`${n} É par`);
+        return
+    }
+    console.log(`${n} É impar`);
+}
+
+_parOUimpar(12);
+
+_parOUimpar(467)
