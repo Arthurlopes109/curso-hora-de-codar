@@ -64,12 +64,12 @@ let y = 10
 
 function testandoEscopo() {
     let y = 20
-    console.log(`Y dentro da função é ${y}`)
+    console.log(`Y dentro da função é ${y}`);
 }
 
-console.log(`Y fora da função é ${y}`)
+console.log(`Y fora da função é ${y}`);
 
-testandoEscopo()
+testandoEscopo();
 
 // 4 - escopo aninhado
 let m = 10
@@ -82,18 +82,18 @@ function escopoAninhado() {
 
         if(true) {
             let m = 40
-            console.log(m)// escopo do segundo if
+            console.log(m);// escopo do segundo if
         }
 
-        console.log(m)// escopo do primeiro if
+        console.log(m);// escopo do primeiro if
     } 
 
-    console.log(m)// escopo da função
+    console.log(m);// escopo da função
 }
 
-escopoAninhado()//escopo da função
+escopoAninhado();//escopo da função
 
-console.log(m)// escopo global
+console.log(m);// escopo global
 
 // 5 - Arrow functions
 
@@ -101,7 +101,7 @@ const testeArrow = () => {
     console.log("Esta é uma arrow function!");
 }
 
-testeArrow()
+testeArrow();
 
 // par ou impar com arrow function
 const _parOUimpar = (n) => {
@@ -114,4 +114,19 @@ const _parOUimpar = (n) => {
 
 _parOUimpar(12);
 
-_parOUimpar(467)
+_parOUimpar(467);
+
+// 6 - mais sobre arrow functions
+const raizQuadrada = (x) => {
+    return x * x;
+}
+
+console.log(raizQuadrada(4));
+
+const raizQuadradaResumida = (x) => x * x;
+
+console.log(raizQuadradaResumida(4));
+
+const helloWorld = () => console.log("Hello World!");
+
+helloWorld();
